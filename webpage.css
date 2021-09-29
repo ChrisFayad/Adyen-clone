@@ -273,11 +273,11 @@ a.btn:hover {
 .sec-9 .carousel div:first-child,
 .sec-9 .carousel div:nth-child(2),
 .sec-9 .carousel div:nth-child(3) {
-  transform: unset;
+/*   transform: unset; */
   z-index: 0 !important;
   opacity: 1 !important;
 }
-.sec-9 .carousel div:first-child {
+/* .sec-9 .carousel div:first-child {
   transform: translateX(372.5px) translateY(50px) translateX(-372px)
     translateZ(0px) !important;
 }
@@ -288,7 +288,7 @@ a.btn:hover {
 .sec-9 .carousel div:nth-child(3) {
   transform: translateX(372.5px) translateY(50px) translateX(372px)
     translateZ(0px) !important;
-}
+} */
 .sec-9 .carousel img {
   border-radius: 6px;
 }
@@ -404,8 +404,7 @@ a.btn:hover {
   .sec-1,
   .sec-3,
   .sec-7,
-  .sec-8,
-  .sec-9 {
+  .sec-8 {
     margin: 0 5%;
   }
   .sec-1 .row .responsive-img {
@@ -439,8 +438,7 @@ a.btn:hover {
   .sec-1,
   .sec-3,
   .sec-7,
-  .sec-8,
-  .sec-9 {
+  .sec-8 {
     margin: 0 10%;
   }
   .sec-1 .row h1 {
@@ -465,8 +463,7 @@ a.btn:hover {
   .sec-3,
   .sec-4,
   .sec-7,
-  .sec-8,
-  .sec-9 {
+  .sec-8 {
     margin: 0 15%;
   }
   .sec-6 .col {
@@ -477,5 +474,8 @@ a.btn:hover {
   .sec-6 table,
   .sec-6 .left {
     margin-left: 0;
+  }
+  .sec-9 .carousel .indicators {
+    visibility: hidden;
   }
 }
