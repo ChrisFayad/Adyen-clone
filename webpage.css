@@ -385,7 +385,7 @@ a.btn:hover {
   text-decoration: underline;
   color: #a5afbd;
 }
-.page-footer .row .icon-box a {
+.page-footer .row div:nth-child(6) a {
   border: 1px solid #a5afbd;
   width: 50px;
   height: 50px;
@@ -393,7 +393,7 @@ a.btn:hover {
   border-radius: 6px;
   margin-right: 10px;
 }
-.page-footer .row .icon-box a i {
+.page-footer .row div:nth-child(6) a i {
   padding: 12px 6px;
   color: #a5afbd;
 }
@@ -431,10 +431,6 @@ a.btn:hover {
     flex: 0;
     max-width: 25%;
   }
-  .page-footer .row .col .icon-box {
-    max-width: 50%;
-    margin-left: calc(100vw - 44%);
-  }
   .sec-10 .row .btn {
     width: 140px;
   }
@@ -465,9 +461,6 @@ a.btn:hover {
     flex-grow: 1;
     max-width: 100%;
   }
-  .page-footer .row .col .icon-box {
-    margin-left: calc(100vw - 41%);
-  }
 }
 @media screen and (min-width: 1201px) {
   .sec-1,
@@ -486,8 +479,5 @@ a.btn:hover {
   .sec-6 table,
   .sec-6 .left {
     margin-left: 0;
-  }
-  .page-footer .row .col .icon-box {
-    margin-left: calc(100vw - 39%);
   }
 }
