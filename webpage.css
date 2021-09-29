@@ -457,9 +457,7 @@ a.btn:hover {
   .page-footer .row div:nth-child(2),
   .page-footer .row div:nth-child(3),
   .page-footer .row div:nth-child(4) {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
+    flex: unset;
   }
 }
 @media screen and (min-width: 1201px) {
