@@ -267,28 +267,18 @@ a.btn:hover {
 .sec-9 .carousel {
   height: 400px;
 }
+.sec-9 .carousel-item {
+ margin-top: 50px; 
+}
 .sec-9 .carousel-item img {
   margin-right: 12px;
 }
 .sec-9 .carousel div:first-child,
 .sec-9 .carousel div:nth-child(2),
 .sec-9 .carousel div:nth-child(3) {
-/*   transform: unset; */
   z-index: 0 !important;
   opacity: 1 !important;
 }
-/* .sec-9 .carousel div:first-child {
-  transform: translateX(372.5px) translateY(50px) translateX(-372px)
-    translateZ(0px) !important;
-}
-.sec-9 .carousel div:nth-child(2) {
-  transform: translateX(372.5px) translateY(50px) translateX(0px)
-    translateX(0px) translateZ(0px) !important;
-}
-.sec-9 .carousel div:nth-child(3) {
-  transform: translateX(372.5px) translateY(50px) translateX(372px)
-    translateZ(0px) !important;
-} */
 .sec-9 .carousel img {
   border-radius: 6px;
 }
